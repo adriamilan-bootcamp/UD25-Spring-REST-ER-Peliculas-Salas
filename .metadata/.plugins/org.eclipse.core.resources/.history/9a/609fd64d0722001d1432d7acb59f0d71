@@ -1,0 +1,44 @@
+package com.adriamilan.cine.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.adriamilan.cine.dao.ISalaDAO;
+import com.adriamilan.cine.dto.Sala;
+
+public class SalaServiceImpl implements ISalaService {
+
+	@Autowired
+	ISalaDAO salaDao;
+
+	@Override
+	public List<Sala> listSalas() {
+		return salaDao.findAll();
+	}
+
+	@Override
+	public Sala salaXID() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Sala saveSala() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Sala editSala() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void deleteSala() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}

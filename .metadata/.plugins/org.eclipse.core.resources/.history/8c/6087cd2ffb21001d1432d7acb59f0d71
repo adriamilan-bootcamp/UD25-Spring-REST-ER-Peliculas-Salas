@@ -1,0 +1,5 @@
+package com.adriamilan.cine.dto;
+
+public class Pelicula {
+
+}

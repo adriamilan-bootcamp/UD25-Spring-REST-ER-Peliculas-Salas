@@ -1,0 +1,19 @@
+package com.adriamilan.cine.service;
+
+import java.util.List;
+
+import com.adriamilan.cine.dto.Sala;
+
+public interface ISalaService {
+
+	public List<Sala> listSalas();
+	
+	public Sala salaXID();
+	
+	public Sala saveSala();
+	
+	public Sala editSala();
+	
+	public void deleteSala();
+	
+}

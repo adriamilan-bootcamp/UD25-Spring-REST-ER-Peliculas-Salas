@@ -1,0 +1,30 @@
+package com.adriamilan.cine.controller;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.adriamilan.cine.dto.Pelicula;
+import com.adriamilan.cine.service.PeliculaServiceImpl;
+
+@RestController
+@RequestMapping("/api")
+public class PeliculaController {
+
+	@Autowired
+	PeliculaServiceImpl peliculaService;
+	
+	@GetMapping("/peliculas")
+	public List<Pelicula> listPeliculas() {
+		return peliculaService.listPeliculas();
+	}
+	
+	@GetMapping("/pelicula/{id}")
+	public Pelicula peliculaXID() {
+		s
+	}
+	
+}

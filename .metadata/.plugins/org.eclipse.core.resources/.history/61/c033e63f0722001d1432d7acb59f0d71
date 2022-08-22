@@ -1,0 +1,12 @@
+package com.adriamilan.cine.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.adriamilan.cine.dao.ISalaDAO;
+
+public class SalaServiceImpl implements ISalaService {
+
+	@Autowired
+	ISalaDAO salaDao;
+	
+}

@@ -1,0 +1,9 @@
+package com.adriamilan.cine.service;
+
+public interface IPeliculaService {
+
+	public List<Pelicula> listPeliculas();
+	
+	public Pelicula peliculaXID();
+	
+}

@@ -1,0 +1,6 @@
+package com.adriamilan.cine.service;
+
+@Service
+public class PeliculaServiceImpl {
+
+}

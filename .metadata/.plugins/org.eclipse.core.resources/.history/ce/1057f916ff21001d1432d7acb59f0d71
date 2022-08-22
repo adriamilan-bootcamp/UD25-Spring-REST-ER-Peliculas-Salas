@@ -1,0 +1,13 @@
+package com.adriamilan.cine.dto;
+
+import javax.persistence.Entity;
+
+@Entity
+public class Pelicula {
+
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Long id;
+	
+	
+}

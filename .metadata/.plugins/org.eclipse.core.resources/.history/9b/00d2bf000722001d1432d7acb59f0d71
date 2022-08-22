@@ -1,0 +1,9 @@
+package com.adriamilan.cine.service;
+
+public interface ISalaService {
+
+	public List<Sala> listSalas();
+	
+	public Sala salaXID();
+	
+}

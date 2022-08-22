@@ -1,0 +1,5 @@
+package com.adriamilan.cine.service;
+
+public interface ISalaService {
+
+}

@@ -1,0 +1,5 @@
+package com.adriamilan.cine.dao;
+
+public interface ISalaDAO extends JpaRepository<Sala, Long>{
+
+}

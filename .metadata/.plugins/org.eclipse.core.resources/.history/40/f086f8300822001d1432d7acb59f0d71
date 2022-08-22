@@ -1,0 +1,21 @@
+package com.adriamilan.cine.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.adriamilan.cine.service.SalaServiceImpl;
+
+@RestController
+@RequestMapping("/api")
+public class SalaController {
+
+	@Autowired
+	SalaServiceImpl salaService;
+	
+	@GetMapping("/salas")
+	public List<Sala> listSalas() {
+		return salaService.listSalas();
+	}
+	
+}

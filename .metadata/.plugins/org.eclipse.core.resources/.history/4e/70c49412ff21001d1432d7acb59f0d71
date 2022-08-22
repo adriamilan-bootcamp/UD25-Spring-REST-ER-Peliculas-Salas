@@ -1,0 +1,9 @@
+package com.adriamilan.cine.dto;
+
+@Entity
+public class Pelicula {
+
+	@Id
+	
+	
+}
